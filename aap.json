@@ -9,7 +9,7 @@
      }, 
     "Xray-plugin-VER": {
        "description": "Xray-plugin version",
-       "value": "8fd6dadc-0d59-4ae7-93bb-e6b8a231c2c2"
+       "value": "1.4.2"
      },
     "method": {
        "description": "encryption method",
