@@ -5,4 +5,4 @@ tar -xvf ss.tar.xz
 tar -xvf xp.tar.xz 
 mv xray-plugin_linux_amd64 xray-plugin
 chmod +x ssserver xray-plugin
-./ssserver -s 0.0.0.0:$PORT -m $method -k $passwprd --plugin "./xray-plugin" --plugin-opts "server"
+./ssserver -s 0.0.0.0:$PORT -m $method -k $password --plugin "./xray-plugin" --plugin-opts "server"
