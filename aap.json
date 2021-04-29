@@ -1,0 +1,26 @@
+{
+  "name": "shadowsocks",
+  "description": "deploy shadowsocks to Heroku.",
+  "keywords": ["shadowsocks"],
+  "env": {
+    "SS-VER": {
+       "description": "shadowsocks-rust version",
+       "value": "1.10.9"
+     }, 
+    "Xray-plugin-VER": {
+       "description": "Xray-plugin version",
+       "value": "8fd6dadc-0d59-4ae7-93bb-e6b8a231c2c2"
+     },
+    "method": {
+       "description": "encryption method",
+       "value": "chacha20-ietf-poly1305"
+     },
+    "password": {
+       "description": "your pawssword",
+       "value": "123-456"
+     }
+  },
+  "website": "https://github.com/wangyi2005/shadowsocks-heroku",
+  "repository": "https://github.com/wangyi2005/shadowsocks-heroku",
+  "stack": "container"
+ }
