@@ -3,8 +3,7 @@ wget -O ss.tar.xz https://github.com/shadowsocks/shadowsocks-rust/releases/downl
 wget -O xp.tar.xz https://github.com/teddysun/xray-plugin/releases/download/v$XraypluginVER/xray-plugin-linux-amd64-v$XraypluginVER.tar.gz
 tar -xvf ss.tar.xz 
 tar -xvf xp.tar.xz 
-mv ss/ssserver .
-mv xp/xray-plugin_linux_amd64 xray-plugin
+mv xray-plugin_linux_amd64 xray-plugin
 chmod +x ssserver xray-plugin
 ls
-./ssserver -s :$PORT -m $method -k $passwprd --plugin "./xray-plugin" --plugin-opts "server"
+./ssserver -s 0.0.0.0:$PORT -m $method -k $passwprd --plugin "./xray-plugin" --plugin-opts "server"
