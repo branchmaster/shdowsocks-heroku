@@ -1,5 +1,5 @@
-FROM alpine:latest
-
+#FROM alpine:latest
+FROM heroku/heroku:18
 RUN mkdir -m 777 /ss
  
 ADD entrypoint.sh /entrypoint.sh
