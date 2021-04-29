@@ -3,3 +3,5 @@
 https://github.com/shadowsocks/shadowsocks-rust
 
 https://github.com/teddysun/xray-plugin
+
+https://github.com/shadowsocks/shadowsocks-windows
